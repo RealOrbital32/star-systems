@@ -1,0 +1,36 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "Warp: Bright to Orange",
+	"starSystem": "O32.StarSystems",
+	"Base": {
+		"surfaceGravity": 0,
+		"surfaceSize": 15,
+		"hasMapMarker": true
+	},
+	"Orbit": {
+		"semiMajorAxis": 16000,
+		"primaryBody": "Bright Sun",
+		"trueAnomaly": 0,
+		"trackingOrbitLine": true,
+		"tint": {
+			"r": 50,
+			"g": 50,
+			"b": 50,
+			"a": 255
+		}
+	},
+	"Props": {
+		"singularities": [
+			{
+				"size": 15,
+				"type": "blackHole",
+				"pairedSingularity": "Exit: Bright to Orange"
+			}
+		]
+	},
+	"ShipLog": {
+		"mapMode": {
+			"remove": true
+		}
+	}
+}
