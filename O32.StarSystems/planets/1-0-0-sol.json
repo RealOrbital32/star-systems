@@ -1,0 +1,23 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "Sol",
+	"starSystem": "O32.StarSystems",
+	"Base": {
+		"surfaceGravity": 50,
+		"surfaceSize": 2048,
+		"hasMapMarker": true,
+		"gravityFallOff": "inverseSquared",
+		"centerOfSolarSystem": true
+	},
+	"Star": {
+		"size": 2048,
+		"tint": {
+			"r": 248,
+			"g": 217,
+			"b": 109,
+			"a": 255
+		},
+		"solarLuminosity": 0.8,
+		"lightRadius": 50000
+	}
+}

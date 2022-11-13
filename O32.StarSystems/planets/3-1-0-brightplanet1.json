@@ -1,0 +1,28 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "Bright Planet 1",
+	"starSystem": "O32.StarSystems",
+	"Base": {
+		"surfaceGravity": 9,
+		"surfaceSize": 196,
+		"hasMapMarker": true
+	},
+	"Orbit": {
+		"semiMajorAxis": 4000,
+		"inclination": 3,
+		"primaryBody": "Bright Sun",
+		"isMoon": false,
+		"longitudeOfAscendingNode": 0,
+		"eccentricity": 0.1,
+		"argumentOfPeriapsis": 37,
+		"axialTilt": 2,
+		"trueAnomaly": 0,
+		"siderealPeriod": 1
+	},
+	"HeightMap": {
+		"heightMap": "planets/assets/blank_heightmap.png",
+		"textureMap": "planets/assets/brightplanet1.png",
+		"minHeight": 196,
+		"maxHeight": 196
+	}
+}

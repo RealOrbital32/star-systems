@@ -1,0 +1,27 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "Prox Sun",
+	"starSystem": "O32.StarSystems",
+	"Base": {
+		"surfaceGravity": 50,
+		"surfaceSize": 893,
+		"hasMapMarker": true,
+		"gravityFallOff": "inverseSquared"
+	},
+	"Orbit": {
+		"semiMajorAxis": 100000,
+		"primaryBody": "Sol",
+		"trueAnomaly": 0
+	},
+	"Star": {
+		"size": 893,
+		"tint": {
+			"r": 255,
+			"g": 89,
+			"b": 89,
+			"a": 255
+		},
+		"solarLuminosity": 0.8,
+		"lightRadius": 50000
+	}
+}

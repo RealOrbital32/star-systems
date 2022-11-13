@@ -1,0 +1,28 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "Large Moon 2",
+	"starSystem": "O32.StarSystems",
+	"Base": {
+		"surfaceGravity": 9,
+		"surfaceSize": 274,
+		"hasMapMarker": true
+	},
+	"Orbit": {
+		"semiMajorAxis": 4000,
+		"inclination": 3,
+		"primaryBody": "Large Planet",
+		"isMoon": true,
+		"longitudeOfAscendingNode": 0,
+		"eccentricity": 0.1,
+		"argumentOfPeriapsis": 290,
+		"axialTilt": 2,
+		"trueAnomaly": 0,
+		"siderealPeriod": 2
+	},
+	"HeightMap": {
+		"heightMap": "planets/assets/blank_heightmap.png",
+		"textureMap": "planets/assets/largemoon2.png",
+		"minHeight": 274,
+		"maxHeight": 274
+	}
+}

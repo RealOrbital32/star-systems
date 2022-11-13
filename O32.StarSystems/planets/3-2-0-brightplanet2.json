@@ -1,0 +1,59 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "Bright Planet 2",
+	"starSystem": "O32.StarSystems",
+	"Base": {
+		"surfaceGravity": 12,
+		"surfaceSize": 450,
+		"hasMapMarker": true
+	},
+	"Orbit": {
+		"semiMajorAxis": 6510,
+		"inclination": 3,
+		"primaryBody": "Bright Sun",
+		"isMoon": false,
+		"longitudeOfAscendingNode": 0,
+		"eccentricity": 0.1,
+		"argumentOfPeriapsis": 156,
+		"axialTilt": 2,
+		"trueAnomaly": 0,
+		"siderealPeriod": 2
+	},
+	"HeightMap": {
+		"heightMap": "planets/assets/blank_heightmap.png",
+		"textureMap": "planets/assets/brightplanet2.png",
+		"minHeight": 348,
+		"maxHeight": 348
+	},
+	"Atmosphere": {
+		"size": 450,
+		"fogSize": 450,
+		"fogDensity": 0.5,
+		"fogTint": {
+			"r": 113,
+			"g": 89,
+			"b": 69,
+			"a": 255
+		},
+		"atmosphereTint": {
+			"r": 113,
+			"g": 89,
+			"b": 69,
+			"a": 255
+		},
+		"clouds": {
+			"cloudsPrefab": "giantsDeep",
+			"texturePath": "planets/assets/brightplanet2_gas.png",
+			"fluidType": "cloud",
+			"innerCloudRadius": 415,
+			"outerCloudRadius": 450,
+			"rotationSpeed": 3,
+			"tint": {
+				"r": 113,
+				"g": 89,
+				"b": 69,
+				"a": 255
+			}
+		}
+	}
+}

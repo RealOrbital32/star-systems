@@ -1,0 +1,27 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "Smol Sun",
+	"starSystem": "O32.StarSystems",
+	"Base": {
+		"surfaceGravity": 50,
+		"surfaceSize": 1539,
+		"hasMapMarker": true,
+		"gravityFallOff": "inverseSquared"
+	},
+	"Orbit": {
+		"semiMajorAxis": 100000,
+		"primaryBody": "Sol",
+		"trueAnomaly": 270
+	},
+	"Star": {
+		"size": 1539,
+		"tint": {
+			"r": 255,
+			"g": 176,
+			"b": 0,
+			"a": 255
+		},
+		"solarLuminosity": 0.8,
+		"lightRadius": 50000
+	}
+}

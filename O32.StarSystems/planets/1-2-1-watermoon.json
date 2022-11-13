@@ -1,0 +1,61 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "Water Moon",
+	"starSystem": "O32.StarSystems",
+	"Base": {
+		"surfaceGravity": 3,
+		"surfaceSize": 120,
+		"hasMapMarker": true
+	},
+	"Orbit": {
+		"semiMajorAxis": 2092,
+		"inclination": 3,
+		"primaryBody": "Water Planet",
+		"isMoon": true,
+		"longitudeOfAscendingNode": 0,
+		"eccentricity": 0.1,
+		"argumentOfPeriapsis": 0,
+		"axialTilt": 105,
+		"trueAnomaly": 0,
+		"siderealPeriod": 1
+	},
+	"HeightMap": {
+		"heightMap": "planets/assets/blank_heightmap.png",
+		"textureMap": "planets/assets/watermoon.png",
+		"minHeight": 120,
+		"maxHeight": 120
+	},
+	"Atmosphere": {
+		"size": 200,
+		"fogSize": 200,
+		"fogDensity": 0.5,
+		"fogTint": {
+			"r": 99,
+			"g": 95,
+			"b": 98,
+			"a": 255
+		},
+		"atmosphereTint": {
+			"r": 99,
+			"g": 95,
+			"b": 98,
+			"a": 255
+		},
+		"clouds": {
+			"cloudsPrefab": "transparent",
+			"texturePath": "planets/assets/water_gas.png",
+			"fluidType": "cloud",
+			"innerCloudRadius": 190,
+			"outerCloudRadius": 200,
+			"rotationSpeed": 4
+		}
+	},
+	"Rings": [
+		{
+			"innerRadius": 300,
+			"outerRadius": 350,
+			"texture": "planets/assets/watermoon_rings.png",
+			"inclination": 0
+		}
+	]
+}

@@ -1,0 +1,31 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "Bin Planet 1",
+	"starSystem": "O32.StarSystems",
+	"Base": {
+		"surfaceGravity": 9,
+		"surfaceSize": 196,
+		"hasMapMarker": true
+	},
+	"Orbit": {
+		"semiMajorAxis": 300,
+		"inclination": 3,
+		"primaryBody": "Binary Center",
+		"isMoon": true,
+		"longitudeOfAscendingNode": 0,
+		"eccentricity": 0.1,
+		"argumentOfPeriapsis": 0,
+		"axialTilt": 2,
+		"trueAnomaly": 0,
+		"siderealPeriod": 1
+	},
+	"Sand": {
+		"size": 196,
+		"tint": {
+			"r": 248,
+			"g": 248,
+			"b": 248,
+			"a": 255
+		}
+	}
+}

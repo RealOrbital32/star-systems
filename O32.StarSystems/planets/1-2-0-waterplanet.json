@@ -1,0 +1,68 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "Water Planet",
+	"starSystem": "O32.StarSystems",
+	"Base": {
+		"surfaceGravity": 15,
+		"surfaceSize": 750,
+		"hasMapMarker": true
+	},
+	"Orbit": {
+		"semiMajorAxis": 7445,
+		"inclination": 3,
+		"primaryBody": "Sol",
+		"isMoon": false,
+		"longitudeOfAscendingNode": 0,
+		"eccentricity": 0.1,
+		"argumentOfPeriapsis": 231,
+		"axialTilt": 2,
+		"trueAnomaly": 0,
+		"siderealPeriod": 3
+	},
+	"HeightMap": {
+		"heightMap": "planets/assets/waterplanet_h.png",
+		"textureMap": "planets/assets/waterplanet.png",
+		"minHeight": 534,
+		"maxHeight": 554
+	},
+	"Water": {
+		"size": 549
+	},
+	"Atmosphere": {
+		"size": 750,
+		"fogSize": 750,
+		"fogDensity": 0.5,
+		"fogTint": {
+			"r": 9,
+			"g": 137,
+			"b": 206,
+			"a": 255
+		},
+		"atmosphereTint": {
+			"r": 9,
+			"g": 137,
+			"b": 207,
+			"a": 255
+		},
+		"clouds": {
+			"cloudsPrefab": "transparent",
+			"texturePath": "planets/assets/water_gas.png",
+			"fluidType": "cloud",
+			"innerCloudRadius": 650,
+			"outerCloudRadius": 750,
+			"rotationSpeed": 2
+		}
+	},
+	"Spawn": {
+		"playerSpawnPoint": {
+			"x": 0,
+			"y": 0,
+			"z": 555
+		},
+		"shipSpawnPoint": {
+			"x": 0,
+			"y": 0,
+			"z": 555
+		}
+	}
+}

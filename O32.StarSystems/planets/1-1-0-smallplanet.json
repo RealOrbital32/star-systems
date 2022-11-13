@@ -1,0 +1,28 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "Small Planet",
+	"starSystem": "O32.StarSystems",
+	"Base": {
+		"surfaceGravity": 9,
+		"surfaceSize": 196,
+		"hasMapMarker": true
+	},
+	"Orbit": {
+		"semiMajorAxis": 3448,
+		"inclination": 3,
+		"primaryBody": "Sol",
+		"isMoon": false,
+		"longitudeOfAscendingNode": 0,
+		"eccentricity": 0.1,
+		"argumentOfPeriapsis": 0,
+		"axialTilt": 2,
+		"trueAnomaly": 0,
+		"siderealPeriod": 2
+	},
+	"HeightMap": {
+		"heightMap": "planets/assets/blank_heightmap.png",
+		"textureMap": "planets/assets/smallplanet.png",
+		"minHeight": 196,
+		"maxHeight": 196
+	}
+}

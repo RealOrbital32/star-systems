@@ -1,0 +1,28 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "Bright Moon",
+	"starSystem": "O32.StarSystems",
+	"Base": {
+		"surfaceGravity": 6,
+		"surfaceSize": 87,
+		"hasMapMarker": true
+	},
+	"Orbit": {
+		"semiMajorAxis": 1750,
+		"inclination": 3,
+		"primaryBody": "Bright Planet 3",
+		"isMoon": true,
+		"longitudeOfAscendingNode": 0,
+		"eccentricity": 0.1,
+		"argumentOfPeriapsis": 41,
+		"axialTilt": 2,
+		"trueAnomaly": 0,
+		"siderealPeriod": 1
+	},
+	"HeightMap": {
+		"heightMap": "planets/assets/blank_heightmap.png",
+		"textureMap": "planets/assets/brightmoon.png",
+		"minHeight": 87,
+		"maxHeight": 87
+	}
+}

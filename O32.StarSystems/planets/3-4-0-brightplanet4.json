@@ -1,0 +1,31 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "Bright Planet 4",
+	"starSystem": "O32.StarSystems",
+	"Base": {
+		"surfaceGravity": 9,
+		"surfaceSize": 202,
+		"hasMapMarker": true
+	},
+	"Orbit": {
+		"semiMajorAxis": 13010,
+		"inclination": 3,
+		"primaryBody": "Bright Sun",
+		"isMoon": false,
+		"longitudeOfAscendingNode": 0,
+		"eccentricity": 0.1,
+		"argumentOfPeriapsis": 340,
+		"axialTilt": 2,
+		"trueAnomaly": 0,
+		"siderealPeriod": 2
+	},
+	"Sand": {
+		"size": 202,
+		"tint": {
+			"r": 248,
+			"g": 248,
+			"b": 248,
+			"a": 255
+		}
+	}
+}

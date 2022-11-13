@@ -1,0 +1,25 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "Binary Center",
+	"starSystem": "O32.StarSystems",
+	"Base": {
+		"surfaceGravity": 0,
+		"surfaceSize": 0,
+		"hasMapMarker": false
+	},
+	"Orbit": {
+		"semiMajorAxis": 16200,
+		"inclination": 3,
+		"primaryBody": "Sol",
+		"isMoon": false,
+		"longitudeOfAscendingNode": 0,
+		"eccentricity": 0.1,
+		"argumentOfPeriapsis": 67,
+		"axialTilt": 2,
+		"trueAnomaly": 0
+	},
+	"FocalPoint": {
+		"primary": "Bin Planet 1",
+		"secondary": "Bin Planet 2"
+	}
+}

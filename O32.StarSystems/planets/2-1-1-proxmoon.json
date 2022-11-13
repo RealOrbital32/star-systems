@@ -1,0 +1,28 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "Prox Moon",
+	"starSystem": "O32.StarSystems",
+	"Base": {
+		"surfaceGravity": 3,
+		"surfaceSize": 68,
+		"hasMapMarker": true
+	},
+	"Orbit": {
+		"semiMajorAxis": 450,
+		"inclination": 3,
+		"primaryBody": "Prox Planet",
+		"isMoon": true,
+		"longitudeOfAscendingNode": 0,
+		"eccentricity": 0.1,
+		"argumentOfPeriapsis": 0,
+		"axialTilt": 2,
+		"trueAnomaly": 0,
+		"siderealPeriod": 1
+	},
+	"HeightMap": {
+		"heightMap": "planets/assets/blank_heightmap.png",
+		"textureMap": "planets/assets/proxmoon.png",
+		"minHeight": 68,
+		"maxHeight": 68
+	}
+}
